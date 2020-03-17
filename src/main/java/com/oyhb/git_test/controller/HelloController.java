@@ -11,9 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello/{msg}")
     public Object hello(@PathVariable("msg") String msg){
-        return msg;
+        return msg + "项目经理";
     }
 
     //开发人员提交的代码
+
+    //项目经理写的代码
 
 }
