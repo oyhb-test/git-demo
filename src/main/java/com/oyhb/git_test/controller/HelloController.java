@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello/{msg}")
     public Object hello(@PathVariable("msg") String msg){
-        return msg + "开发人员";
+        return msg + "开发人员456";
     }
 
     //开发人员提交的代码
